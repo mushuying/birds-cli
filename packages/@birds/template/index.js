@@ -67,7 +67,7 @@ module.exports = ({ tsx, less, git, config = {} }) => {
         break;
       }
 
-      case 'chicken2.config.js': {
+      case 'birdrs.config.js': {
         const content = `module.exports = ${JSON.stringify(config, null, 2)}`;
         fs.writeFileSync(destSrc, content);
         break;

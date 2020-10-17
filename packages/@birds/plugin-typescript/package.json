@@ -1,5 +1,5 @@
 {
-  "name": "@chicken2/plugin-typescript",
+  "name": "@birds/plugin-typescript",
   "version": "1.0.0",
   "description": "ts插件",
   "main": "index.js",
@@ -8,8 +8,8 @@
   },
   "keywords": [
     "react",
-    "chicken2",
-    "@chicken2/plugin-typescript"
+    "birds",
+    "@birds/plugin-typescript"
   ],
   "author": "",
   "license": "ISC",

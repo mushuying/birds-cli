@@ -1,12 +1,12 @@
 {
-  "name": "@chicken2/template",
+  "name": "@birdrs/template",
   "version": "1.0.9",
   "description": "脚手架template部分",
   "main": "index.js",
   "keywords": [
     "react",
-    "chicken2",
-    "@chicken2/template"
+    "birdrs",
+    "@birdrs/template"
   ],
   "author": "cjj281795819",
   "license": "ISC",

@@ -27,7 +27,7 @@ const checkVersion = (force = false) => {
 
   fs.writeFileSync(timePath, nowTime);
 
-  const lastV = execSync(`${MANAGER} view @chuhc/cli version`, {
+  const lastV = execSync(`${MANAGER} view @birdrs/cli version`, {
     encoding: 'utf8',
   });
   return lastV;
@@ -49,7 +49,7 @@ const beforeCreate = async () => {
       },
     ]);
 
-    update && execSync(`${MANAGER} update @chuhc/cli -g`);
+    update && execSync(`${MANAGER} update @birdrs/cli -g`);
   }
 
   return;

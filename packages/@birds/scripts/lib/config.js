@@ -3,7 +3,7 @@
  */
 const { merge } = require('webpack-merge');
 const Config = require('webpack-chain');
-const chuhcConfig = require(`${process.cwd()}/chicken2.config.js`);
+const chuhcConfig = require(`${process.cwd()}/birdrs.config.js`);
 const { setBaseConfig } = require('./util/merge');
 const BASE = require('./config/webpack.base');
 const DEVE = merge(BASE, require('./config/webpack.deve'));

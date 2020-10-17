@@ -1,5 +1,5 @@
 {
-  "name": "@chicken2/plugin-less",
+  "name": "@birds/plugin-less",
   "version": "1.0.0",
   "description": "less插件",
   "main": "index.js",
@@ -8,8 +8,8 @@
   },
   "keywords": [
     "react",
-    "chicken2",
-    "@chicken2/plugin-less"
+    "birds",
+    "@birdrs/plugin-less"
   ],
   "author": "",
   "license": "ISC",

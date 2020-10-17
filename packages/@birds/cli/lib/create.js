@@ -8,7 +8,7 @@ const inquirer = require('inquirer');
 const catchFn = require('./util/catchFn');
 const PackageManager = require('./PackageManager');
 const writeFileTree = require('./util/writeFileTree');
-const template = require('@chuhc/template');
+const template = require('@birdrs/template');
 const { beforeCreate } = require('./util/checkVersion');
 const { clear, validateName, forEachSetV } = require('./util');
 const { setPkg, setPkgScripts, getPluginOptions } = require('./util/pkg');
@@ -18,11 +18,11 @@ const loading = ora();
 const CHUHC_PLUGIN_CHECK = [
   {
     name: 'Typescript',
-    value: ['tsx', '@chuhc/plugin-typescript'],
+    value: ['tsx', '@birdrs/plugin-typescript'],
   },
   {
     name: 'Less',
-    value: ['less', '@chuhc/plugin-less'],
+    value: ['less', '@birdrs/plugin-less'],
   },
 ];
 
@@ -83,7 +83,7 @@ async function create(pkgName) {
     plugins: devD.map((item) => [item, {}]),
   };
 
-  devD.push('babel-eslint', '@chuhc/scripts');
+  devD.push('babel-eslint', '@birdrs/scripts');
 
   const promise = [
     ...forEachSetV(depe, pkg, 'dependencies'),

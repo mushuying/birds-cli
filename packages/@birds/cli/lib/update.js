@@ -15,7 +15,7 @@ const getNewVersion = () => {
 
   if (semver.gt(lastV, pkg.version)) {
     console.log('ready to upgrade');
-    execSync(`${MANAGER} update @chuhc/cli -g`);
+    execSync(`${MANAGER} update @birdrs/cli -g`);
   } else {
     console.log(`This is the latest version of ${pkg.version}`);
   }

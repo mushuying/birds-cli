@@ -1,9 +1,9 @@
 项目结构分成了四个部分：
 
-- `@chicken2/cli` 脚手架命令行内容，通过命令去初始化项目等等操作。
-- `@chicken2/scripts` 项目编译运行打包内容，暂未接入部署等流程。
-- `@chicken2/template` 模板文件。
-- `@chicken2/plugin-xxx` 项目封装的插件，例如`@chicken2/plugin-typescript`等等。
+- `@birdrs/cli` 脚手架命令行内容，通过命令去初始化项目等等操作。
+- `@birdrs/scripts` 项目编译运行打包内容，暂未接入部署等流程。
+- `@birdrs/template` 模板文件。
+- `@birdrs/plugin-xxx` 项目封装的插件，例如`@birdrs/plugin-typescript`等等。
 
 ## cli
 
@@ -13,7 +13,7 @@
 
 一个基本的`package.json`模板，除了常规不变的`version`、`private`、`license`等等，像`name`，`scripts`，`dependencies`，`devDependencies`需要我们去手动添加进去。
 
-`name`就使用脚手架初始化传入的参数，而`scripts`则是在成功引入`@chicken2/scripts`后，使用其运行命令。
+`name`就使用脚手架初始化传入的参数，而`scripts`则是在成功引入`@birdrs/scripts`后，使用其运行命令。
 
 像一些必备的，例如`react`，`react-dom`，我们可以直接放到`dependencies`里，而`devDependencies`一般是初始化时，用户手动选择的`plugins`。
 
@@ -32,7 +32,7 @@
 因为是多页面项目，`scripts`里主要做了以下几件事情：
 
 - 通过`glob`去匹配入口，然后将其作为`entry`动态传入，并动态传入多个`html-webpack-plugin`给`plugins`。
-- 通过读取项目根目录下的`chicken2.config.js`文件，来动态修改`webpack`配置内容并调用对应的插件。
+- 通过读取项目根目录下的`birdrs.config.js`文件，来动态修改`webpack`配置内容并调用对应的插件。
 - 最后生成最终的`webpack`配置文件，传入给`webpack`去进行编译运行打包等等操作。
 
 ### 匹配入口

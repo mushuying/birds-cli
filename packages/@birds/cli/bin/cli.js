@@ -7,7 +7,7 @@ const pkg = require('../package.json');
 const chalk = require('chalk');
 
 program
-  .version(`@chuhc/cli ${pkg.version}`, '-v -version')
+  .version(`@birdrs/cli ${pkg.version}`, '-v -version')
   .usage('<command> [options]');
 
 program
@@ -19,7 +19,7 @@ program
 
 program
   .command('update')
-  .description('@chuhc/cli update')
+  .description('@birdrs/cli update')
   .action(() => {
     require('../lib/update.js')();
   });
