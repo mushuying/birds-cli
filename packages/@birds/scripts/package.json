@@ -1,18 +1,18 @@
 {
-  "name": "@birdrs/scripts",
+  "name": "@birds/scripts",
   "version": "1.0.0",
   "description": "脚手架scripts部分",
   "main": "index.js",
   "bin": {
-    "birdrs-scripts": "./bin/index.js"
+    "birds-scripts": "./bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "react",
-    "birdrs",
-    "@birdrs/scripts"
+    "birds",
+    "@birds/scripts"
   ],
   "author": "acci",
   "license": "ISC",

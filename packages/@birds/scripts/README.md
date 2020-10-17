@@ -1,1 +1,1 @@
-# birdrs-cli 脚手架
+# birds-cli 脚手架

@@ -1,23 +1,23 @@
 {
-  "name": "@birdrs/cli",
+  "name": "@birds/cli",
   "version": "1.0.0",
   "description": "脚手架cli部分",
   "main": "index.js",
   "bin": {
-    "ccli": "./bin/cli.js"
+    "@birds/cli":"./bin/cli.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "react",
-    "birdrs",
-    "@birdrs/cli"
+    "birds",
+    "@birds/cli"
   ],
-  "author": "cjj281795819",
+  "author": "acci",
   "license": "ISC",
   "dependencies": {
-    "@birdrs/template": "1.0.9",
+    "@birds/template": "1.0.0",
     "chalk": "^4.1.0",
     "commander": "^6.1.0",
     "fs-extra": "^9.0.1",

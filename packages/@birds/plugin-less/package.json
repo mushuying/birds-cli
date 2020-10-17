@@ -9,7 +9,7 @@
   "keywords": [
     "react",
     "birds",
-    "@birdrs/plugin-less"
+    "@birds/plugin-less"
   ],
   "author": "",
   "license": "ISC",

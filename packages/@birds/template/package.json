@@ -1,14 +1,14 @@
 {
-  "name": "@birdrs/template",
-  "version": "1.0.9",
+  "name": "@birds/template",
+  "version": "1.0.0",
   "description": "脚手架template部分",
   "main": "index.js",
   "keywords": [
     "react",
-    "birdrs",
-    "@birdrs/template"
+    "birds",
+    "@birds/template"
   ],
-  "author": "cjj281795819",
+  "author": "acci",
   "license": "ISC",
   "peerDependencies": {
     "fs-extra": ">9"
